@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="icon" href="img/logo.ico" type="image/ico">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div>
+                <h1 class="navbar-title">Agrinho 2024 💡</h1>
+                <a href="#" class="sidenav-trigger" data-target="mobile-demo">
+                    <i class="material-icons">menu</i>
+                </a>
+                <ul class="right hide-on-med-and-down">
+                    <li><a href="index.html">Início</a></li>
+                    <li><a href="sustentabilidade.html">Sustentabilidade</a></li>
+                    <li><a href="agrointeligencia.html">Agrointeligência</a></li>
+                    <li><a href="cultivos.html">Cultivos</a></li>
+                    <li><a href="contato.html">Contato</a></li>
+                </ul>
+                <ul class="right sidenav" id="mobile-demo">
+                    <li><a href="index.html">Início</a></li>
+                    <li><a href="sustentabilidade.html">Sustentabilidade</a></li>
+                    <li><a href="agrointeligencia.html">Agrointeligência</a></li>
+                    <li><a href="cultivos.html">Cultivos</a></li>
+                    <li><a href="contato.html">Contato</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main class="main-contato">
+        <section>
+            <div>
+                <h2>Cadastro Para Contato</h2>
+
+                <p>Preencha os campos abaixo com suas informações:</p>
+            </div>
+
+            <form name="dados" action="index.html" method="get">
+                <fieldset>
+                    <div>
+                        <label>Nome:</label>
+                        <input type="text" nome="name" id="name">
+                    </div>
+
+                    <div>
+                        <label>Sobrenome:</label>
+                        <input type="text" nome="sobrenome" id="sobrenome">
+                    </div>
+
+                    <div>
+                        <br><input type="submit" value="Enviar">
+                    </div>
+                </fieldset>
+                <br>
+                <fieldset>
+                    <div>
+                        <br><label>E-mail:</label>
+                        <input type="email" nome="email" id="email">
+                    </div>
+
+                    <div>
+                        <br><label>Telefone:</label>
+                        <input type="tel" nome="tcomercial" id="idTComercial">
+                    </div>
+                </fieldset>
+
+                <div>
+                    <br><label>Com qual gênero você se identifica?</label>
+                    <label>
+                        <input type="radio" nome="genero" value="masculino">Masculino
+                    </label>
+                    <label>
+                        <input type="radio" nome="genero" value="feminino">Feminino
+                    </label>
+                    <label>
+                        <input type="radio" nome="genero" value="prefironaodizer">Prefiro não dizer
+                    </label>
+                </div>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Agrinho. Criação e Desenvolvimento: Gabriel Da Luz Lobo</p>
+        <p>Criando um mundo melhor com Inteligência artificial | Programação nas Escolas | Do campo à cidade, colhendo oportunidades  | Escola Dr. Generoso Marques</p>
+    </footer>
+
+    <script src="JavaScript/script.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+</body>
+
+</html>
